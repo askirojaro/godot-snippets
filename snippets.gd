@@ -1,5 +1,5 @@
 extends Node2D
-
+# set sprite to mouse cursor
 onready var logo = get_node("Logo")
 
 func _ready():
