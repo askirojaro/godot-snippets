@@ -1,2 +1,1 @@
-# hello-world.
-Learning about committing changes to the readme edits branch
+Useful code snippets for Godot on my programming journey.
