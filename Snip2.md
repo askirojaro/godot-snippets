@@ -57,7 +57,7 @@ func hide():
 	show()
 ```
 ## Example of Usage
-```
+```gdscript
  func _on_Achievements_achievement_completed():
 	var panel = $Achievements/SlidingPanel
 	panel.description = 'Encapsulated achievements for cleaner code'
