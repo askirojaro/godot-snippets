@@ -1,6 +1,7 @@
 # Setget
 ## Example Implementation
 
+
 ```gdscript
 ####################################################
 Using setget for encapsulation for achievements
@@ -54,7 +55,9 @@ func hide():
 	tween.start()
 	yield(tween, 'tween_completed')
 	show()
+```
 ## Example of Usage
+```
  func _on_Achievements_achievement_completed():
 	var panel = $Achievements/SlidingPanel
 	panel.description = 'Encapsulated achievements for cleaner code'
