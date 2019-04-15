@@ -54,7 +54,7 @@ func hide():
 	tween.start()
 	yield(tween, 'tween_completed')
 	show()
- ## Example Implementation
+## Example of Usage
  func _on_Achievements_achievement_completed():
 	var panel = $Achievements/SlidingPanel
 	panel.description = 'Encapsulated achievements for cleaner code'
